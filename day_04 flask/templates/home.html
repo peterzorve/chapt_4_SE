@@ -1,0 +1,44 @@
+
+{% extends "base.html" %} 
+
+{% from "components/card.html" import card %} 
+
+{% block title %}Home Page{% endblock %}
+
+
+{% block content %}
+    <h1>Peter Zorve Portfolio</h1>
+
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "Passport Photo", 'Do not be comfortable yet. Flask is more difficult and messier than you think')}}
+          </div>
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "Picture", 'Do not be comfortable yet. Flask is more difficult and messier than you think')}}
+          </div>
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "Face", 'Do not be comfortable yet. Flask is more difficult and messier than you think')}}
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "Nice", 'Do not be comfortable yet. Flask is more difficult and messier than you think')}}
+          </div>
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "Travel", 'Do not be comfortable yet. Flask is more difficult and messier than you think')}}
+          </div>
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "Very Nice", 'Do not be comfortable yet. Flask is more difficult and messier than you think')}}
+          </div>
+        </div>
+    </div>
+
+
+    <a href="/about"> Go to About Page</a>
+
+
+{% endblock %}

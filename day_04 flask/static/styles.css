@@ -1,0 +1,16 @@
+
+
+:root {
+
+        --background-color: rgb(100, 177, 102);
+        --primary-color: #dffdffff;
+        --secondary-color: rgb(6, 34, 96);
+        /* --text-color :  rgb(255, 255, 255); */
+
+     }
+
+body {
+    background-color: var(--background-color);
+    color : var(--text-color);
+    font-family: 'Gulzar', serif;
+}

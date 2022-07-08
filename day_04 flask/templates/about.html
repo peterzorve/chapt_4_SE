@@ -1,0 +1,31 @@
+
+{% from "components/card.html" import card %} 
+
+{% extends "base.html" %} 
+
+{% block title %}Welcome to this Page{% endblock %}
+
+
+{% block content %}
+    <h1>Everything you need to know about my Website is my FACE </h1>
+
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "My Photo", 'Description')}}
+          </div>
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "Passport Picture", 'Description')}}
+          </div>
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "My Picture", 'Description')}}
+          </div>
+          <div class="col">
+            {{card("static/zorvepeter.jpg", "My Face", 'Description')}}
+          </div>
+        </div>
+    </div>
+
+    <a href="/"> Go to Home Page</a>
+
+{% endblock %}
