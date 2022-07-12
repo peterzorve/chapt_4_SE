@@ -1,0 +1,37 @@
+
+
+-- Question 1 :
+-- Select film title description and release year join category table.
+-- Name column names with table name by using snake case.
+
+  
+
+-- Question 2 :
+-- Select customer and their address join country and city tables
+-- Name column names with table name by using snake case.
+
+ 
+-- Question 3 :
+-- Select all payments info including staff info, customer info, and rental info.
+-- Name column names with table name by using snake case.
+
+
+ 
+-- Question 4 :
+-- Select all the actors and films and join them
+-- Name column names with table name by using snake case.
+-- HINT : You need to use groupby
+
+
+
+-- Question 5 :
+-- Select all the stores with addresses and manager staff name last name.
+
+
+-- Question 6 :
+-- In this store, every worker receives 1500 $ base salary
+-- After the 5000th movie, they get a bonus of 0.1 euro for every movie they rent.
+-- Calculate total bonus that is received by staff members and join their names and last_names
+
+
+ 
