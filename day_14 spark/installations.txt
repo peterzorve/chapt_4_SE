@@ -1,0 +1,7 @@
+create environment 
+
+activate environment 
+
+python -m pip install findspark
+
+conda install -c conda-forge pyspark
